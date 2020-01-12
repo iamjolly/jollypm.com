@@ -88,8 +88,14 @@ a.fa:hover, a.fa:focus {
 }
 
 @media (max-width: 450px) {
+
+h1 {
+    font-size: 3em;
+}
+
 ul {
     text-align: center;
+    margin: 1.6rem 0;
 }
 li {
     border-radius: 0%;
@@ -103,7 +109,7 @@ li {
     height: auto;
     width: auto;
 }
-li:hover {
+/* li:hover {
     background-color: none;
     transition: none;
 }
@@ -123,8 +129,11 @@ a {
     font-family: Arial;
     margin-left: 40px;
 }
+
+*/ 
+
 .content {
-    padding-top: 60px;
+    padding-top: 1.4rem;
 }
 }
 
