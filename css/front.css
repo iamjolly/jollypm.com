@@ -103,7 +103,7 @@ li {
     height: auto;
     width: auto;
 }
-li:hover {
+/* li:hover {
     background-color: none;
     transition: none;
 }
@@ -123,6 +123,9 @@ a {
     font-family: Arial;
     margin-left: 40px;
 }
+
+*/ 
+
 .content {
     padding-top: 60px;
 }
