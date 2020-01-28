@@ -1,0 +1,35 @@
+---
+permalink: /404.html
+title: File not found on JollyPM. Sorry!
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ site.description }}">
+        {% if site.favicon_img %}
+        <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
+        {% endif %}
+        <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
+    </head>
+    <body class="background-svg not-found">
+        <div class="content">
+            {% if site.front_img %}
+            <img src="{{ site.front_img_path }}" id="fullscreen">
+            {% endif %}
+
+            {% if site.avatar %}
+                <img alt="{{ site.avatar_img_alt }}" src="{{ site.avatar_img_path }}" id="avatar">
+            {% endif %}
+
+            <h1>404 - Not Found!</h1>
+            <p class="site-description">The page or file you’re looking for isn’t here. This is either because the site has changed or the thing was never here. Sorry about that!</p>
+            <p class="site-description"><a href="mailto:requests@jollypm.com">Let me know</a> if you need something specific, and I’ll do my best to accommodate your request.</p>
+        </div>
+
+    </body>
+</html>

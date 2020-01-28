@@ -43,6 +43,13 @@ h3 {
     padding-bottom: 40px;
     text-align: center;
 }
+
+.not-found p.site-description {
+    max-width: 50%;
+    margin: 1rem auto;
+    text-align: left;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -55,6 +62,16 @@ li {
     width: 65px;
     height: 65px;
 }
+
+a {
+    color: #f71;
+}
+
+a:focus, a:hover {
+    background: #000;
+    color: #ef71d3;
+}
+
 a.fa {
     color: #edb;
     padding: 15px;
@@ -109,6 +126,11 @@ li {
     height: auto;
     width: auto;
 }
+
+p.site-description {
+    max-width: 85%;
+}
+
 /* li:hover {
     background-color: none;
     transition: none;
