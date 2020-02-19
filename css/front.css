@@ -107,7 +107,7 @@ a.fa:hover, a.fa:focus {
 @media (max-width: 450px) {
 
 h1 {
-    font-size: 3em;
+    font-size: 2.4em;
 }
 
 ul {
@@ -129,6 +129,14 @@ li {
 
 p.site-description {
     max-width: 85%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.not-found p.site-description {
+    max-width: 85%;
+    margin: 1rem auto;
+    text-align: left;
 }
 
 /* li:hover {
