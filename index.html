@@ -112,6 +112,10 @@ permalink: /
                     <li><a class="fa fa-2x fa-globe" href="{{ site.business_site }}"   rel="me"><span class="sr-only">My Accessibility Consulting Site</span></a></li>
                     {% endif %}
 
+                    {% if site.gravatar_username %}
+                    <li><a class="fa fa-2x fa-user-circle" href="https://gravatar.com/{{ site.gravatar_username }}" rel="me"><span class="sr-only">My Gravatar Profile</span></a></li>
+                    {% endif %}
+
                     {% if site.email %}
                     <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"  rel="me"><span class="sr-only">Email me</span></a></li>
                     {% endif %}
