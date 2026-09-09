@@ -15,7 +15,7 @@ permalink: /
         {% endif %}
         <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
         <meta name="msvalidate.01" content="4CECE928FB425DAA71F23BF803BE6049" />
     </head>
     <body class="background-svg">
@@ -33,95 +33,91 @@ permalink: /
 
                 <ul>
                     {% if site.github_username %}
-                    <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"  rel="me"><span class="sr-only">My GitHub profile</span></a></li>
+                    <li><a class="fa fab fa-2x fa-github" href="https://github.com/{{ site.github_username }}"  rel="me"><span class="sr-only">My GitHub profile</span></a></li>
                     {% endif %}
 
                     {% if site.codepen_username %}
-                    <li><a class="fa fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen_username }}"><span class="sr-only">CodePen</span></a></li>
+                    <li><a class="fa fab fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen_username }}"><span class="sr-only">CodePen</span></a></li>
                     {% endif %}
 
                     {% if site.facebook_username %}
-                    <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="sr-only">Facebook</span></a></li>
+                    <li><a class="fa fab fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="sr-only">Facebook</span></a></li>
                     {% endif %}
 
                     {% if site.vk_username %}
-                    <li><a class="fa fa-2x fa-vk" href="https://vk.com/{{ site.vk_username }}"><span class="sr-only">ВКонтакте</span></a></li>
+                    <li><a class="fa fab fa-2x fa-vk" href="https://vk.com/{{ site.vk_username }}"><span class="sr-only">ВКонтакте</span></a></li>
                     {% endif %}
 
                     {% if site.twitter_username %}
-                    <li><a class="fa fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"><span class="sr-only">Twitter</span></a></li>
+                    <li><a class="fa fab fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"><span class="sr-only">Twitter</span></a></li>
                     {% endif %}
 
                     {% if site.google_plus_username %}
-                    <li><a class="fa fa-2x fa-google-plus" href="https://plus.google.com/+{{ site.google_plus_username }}"><span class="sr-only">Google +</span></a></li>
+                    <li><a class="fa fab fa-2x fa-google-plus-g" href="https://plus.google.com/+{{ site.google_plus_username }}"><span class="sr-only">Google +</span></a></li>
                     {% endif %}
 
                     {% if site.linkedin_username %}
-                    <li><a class="fa fa-2x fa-linkedin" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"  rel="me"><span class="sr-only">See my LinkedIn page</span></a></li>
-                    {% endif %}
-
-                    {% if site.vine_username %}
-                    <li><a class="fa fa-2x fa-vine" href="https://vine.co/{{ site.vine_username }}"><span class="sr-only">Vine</span></a></li>
+                    <li><a class="fa fab fa-2x fa-linkedin" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"  rel="me"><span class="sr-only">See my LinkedIn page</span></a></li>
                     {% endif %}
 
                     {% if site.instagram_username %}
-                    <li><a class="fa fa-2x fa-instagram" href="https://instagram.com/{{ site.instagram_username }}"><span class="sr-only">Instagram</span></a></li>
+                    <li><a class="fa fab fa-2x fa-instagram" href="https://instagram.com/{{ site.instagram_username }}"><span class="sr-only">Instagram</span></a></li>
                     {% endif %}
 
                     {% if site.flickr_usernmae %}
-                    <li><a class="fa fa-2x fa-flickr" href="https://flickr.com/photos/{{ site.flickr_username }}"><span class="sr-only">Flickr</span></a></li>
+                    <li><a class="fa fab fa-2x fa-flickr" href="https://flickr.com/photos/{{ site.flickr_username }}"><span class="sr-only">Flickr</span></a></li>
                     {% endif %}
 
                     {% if site.steam_username %}
-                    <li><a class="fa fa-2x fa-steam" href="http://steamcommunity.com/id/{{ site.steam_username }}"><span class="sr-only">Steam</span></a></li>
+                    <li><a class="fa fab fa-2x fa-steam" href="http://steamcommunity.com/id/{{ site.steam_username }}"><span class="sr-only">Steam</span></a></li>
                     {% endif %}
 
                     {% if site.soundcloud_username %}
-                    <li><a class="fa fa-2x fa-soundcloud" href="https://soundcloud.com/{{ site.soundcloud_username }}"><span class="sr-only">Soundcloud</span></a></li>
+                    <li><a class="fa fab fa-2x fa-soundcloud" href="https://soundcloud.com/{{ site.soundcloud_username }}"><span class="sr-only">Soundcloud</span></a></li>
                     {% endif %}
 
                     {% if site.lastfm_username %}
-                    <li><a class="fa fa-2x fa-lastfm" href="http://www.last.fm/user/{{ site.lastfm_username }}"><span class="sr-only">Last.fm</span></a></li>
+                    <li><a class="fa fab fa-2x fa-lastfm" href="http://www.last.fm/user/{{ site.lastfm_username }}"><span class="sr-only">Last.fm</span></a></li>
                     {% endif %}
 
                     {% if site.stack_of_username %}
-                    <li><a class="fa fa-2x fa-stack-overflow" href="https://stackoverflow.com/users/{{ site.stack_of_username }}"><span class="sr-only">Stack OF</span></a></li>
+                    <li><a class="fa fab fa-2x fa-stack-overflow" href="https://stackoverflow.com/users/{{ site.stack_of_username }}"><span class="sr-only">Stack OF</span></a></li>
                     {% endif %}
 
                     {% if site.reddit_username %}
-                    <li><a class="fa fa-2x fa-reddit" href="https://reddit.com/user/{{ site.reddit_username }}"><span class="sr-only">Reddit</span></a></li>
+                    <li><a class="fa fab fa-2x fa-reddit" href="https://reddit.com/user/{{ site.reddit_username }}"><span class="sr-only">Reddit</span></a></li>
                     {% endif %}
 
                     {% if site.medium_username %}
-                    <li><a class="fa fa-2x fa-medium" href="https://medium.com/@{{ site.medium_username }}"><span class="sr-only">Medium</span></a></li>
+                    <li><a class="fa fab fa-2x fa-medium" href="https://medium.com/@{{ site.medium_username }}"><span class="sr-only">Medium</span></a></li>
                     {% endif %}
 
                     {% if site.tumblr_username %}
-                    <li><a class="fa fa-2x fa-tumblr" href="https://{{ site.tumblr_username }}.tumblr.com/"><span class="sr-only">Tumblr</span></a></li>
+                    <li><a class="fa fab fa-2x fa-tumblr" href="https://{{ site.tumblr_username }}.tumblr.com/"><span class="sr-only">Tumblr</span></a></li>
                     {% endif %}
 
                     {% if site.weibo_username %}
-                    <li><a class="fa fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo_username }}"><span class="sr-only">微博</span></a></li>
+                    <li><a class="fa fab fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo_username }}"><span class="sr-only">微博</span></a></li>
                     {% endif %}
 
                     {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="sr-only">Blog</span></a></li>
+                    <li><a class="fa fas fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="sr-only">Blog</span></a></li>
                     {% endif %}
 
                     {% if site.business_site %}
-                    <li><a class="fa fa-2x fa-globe" href="{{ site.business_site }}"   rel="me"><span class="sr-only">My Accessibility Consulting Site</span></a></li>
+                    <li><a class="fa fas fa-2x fa-globe" href="{{ site.business_site }}"   rel="me"><span class="sr-only">My Accessibility Consulting Site</span></a></li>
                     {% endif %}
 
                     {% if site.gravatar_username %}
-                    <li><a class="fa fa-2x fa-user-circle" href="https://gravatar.com/{{ site.gravatar_username }}" rel="me"><span class="sr-only">My Gravatar Profile</span></a></li>
+                    <li><a class="fa fas fa-2x fa-user-circle" href="https://gravatar.com/{{ site.gravatar_username }}" rel="me"><span class="sr-only">My Gravatar Profile</span></a></li>
                     {% endif %}
 
                     {% if site.email %}
-                    <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"  rel="me"><span class="sr-only">Email me</span></a></li>
+                    <li><a class="fa fas fa-2x fa-envelope" href="mailto:{{ site.email }}"  rel="me"><span class="sr-only">Email me</span></a></li>
                     {% endif %}
 
                     {% if site.public_key_url %}
-                    <li><a class="fa fa-2x fa-key" href="{{ site.public_key_url }}"><span class="sr-only">PGP Key</span></a></li>
+                    <li><a class="fa fas fa-2x fa-key" href="{{ site.public_key_url }}"><span class="sr-only">PGP Key</span></a></li>
                     {% endif %}
                 </ul>
             </main>

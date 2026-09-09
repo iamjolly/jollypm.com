@@ -72,7 +72,7 @@ a:focus, a:hover {
     color: #ef71d3;
 }
 
-a.fa {
+a.fa, a.fab, a.fas {
     color: #edb;
     padding: 15px;
     text-decoration: none;
@@ -80,7 +80,9 @@ a.fa {
     border-radius: 100%;
 }
 
-a.fa:hover, a.fa:focus {
+a.fa:hover, a.fa:focus,
+a.fab:hover, a.fab:focus,
+a.fas:hover, a.fas:focus {
     border: 2px solid rgb(255, 143, 44);
     border-radius: 100%;
     -webkit-transition: 500ms;
